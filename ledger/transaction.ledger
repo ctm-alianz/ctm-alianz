@@ -1,0 +1,8 @@
+
+2016/12/15 * ctm-alianz Personal Guild Initialization
+    ; Create XP by giving the founder Equity
+    ctm-alianz:Height:ctm-alianz:ctm-alianz:da33363379a83c9ad8368ab4398a724ff5bd509f                                        1 XP
+    ctm-alianz:Depth:ctm-alianz:ctm-alianz:da33363379a83c9ad8368ab4398a724ff5bd509f                                         -1 XP
+    ctm-alianz:Payable:ctm-alianz:ctm-alianz:da33363379a83c9ad8368ab4398a724ff5bd509f                                             1 XGG
+    gitguild:Receivable:ctm-alianz:ctm-alianz:da33363379a83c9ad8368ab4398a724ff5bd509f                                       -1 XGG
+

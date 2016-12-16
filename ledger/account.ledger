@@ -1,0 +1,33 @@
+; Account structure is quite complex in the GitGuild, creating a symmetry between this ledger and the git tree itself.
+; A number of complex and potentially long account names may be difficult to read, but they're quite organized.
+; The basic structure is as follows.
+;
+; username:user account:repository:branch:parent commit hash:metadata
+;
+; Most of these are probably self explanatory. User account is the usual suspects of accounting: Income, Expenses, Assets, Liabilities, Equity.
+; User account also has two additional options related to voting: Height, Depth.
+; Metadata might be bitcoin or dash addresses, and/or transaction hashes.
+
+account gitguild
+    note the GitGuild, authors and maintainers of this system
+account ctm-alianz
+    note this Guild
+account git
+    note a strawman account on behalf of the git team, if/until they accept
+account gpg
+    note a strawman account on behalf of the gnupg team, if/until they accept
+account ledger
+    note a strawman account on behalf of the ledger-cli team, if/until they accept
+
+account ctm-alianz:Depth
+    note the guild's depth, a measure of where votes have been spent and how many
+    assert commodity == "XP"
+account ctm-alianz:Height
+    note the guild's vote counting area
+    assert commodity == "XP"
+account ctm-alianz:Equity
+account ctm-alianz:Income
+account ctm-alianz:Assets
+account ctm-alianz:Liabilities
+account ctm-alianz:Expenses
+
